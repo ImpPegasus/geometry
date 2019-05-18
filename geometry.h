@@ -2,7 +2,7 @@
 #define GEOMETRY_H
 #include <stdio.h>
 
-/*typedef struct {
+typedef struct {
 float x,y;
 
 }point;
@@ -10,10 +10,10 @@ float x,y;
 typedef struct {
 point o;
 int r
-}circle;*/
+}circle;
 
-//circle test;
-//point z;
+circle test;
+point z;
 
 int Per(int r);
 int Plo(int r);
