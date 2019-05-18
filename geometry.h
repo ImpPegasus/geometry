@@ -3,14 +3,13 @@
 #include <stdio.h>
 
 typedef struct {
-float x,y;
-
-}point;
+    float x, y;
+} point;
 
 typedef struct {
-point o;
-int r
-}circle;
+    point o;
+    int r
+} circle;
 
 circle test;
 point z;
